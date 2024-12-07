@@ -1,0 +1,10 @@
+workers:
+  - dockerfile_path: Dockerfile
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: tanyasharma9/docker-cron-547proj
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    name: docker-cron-547proj
+    source_dir: /
